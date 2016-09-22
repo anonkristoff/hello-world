@@ -6,7 +6,7 @@ if number % 2 == 0:
 else:
 	answer = "tails"
 
-print("Secret answer = ", answer) # for testing
+# print("Secret answer = ", answer) # for testing
 guess = input("Please make a guess, heads or tails: ")
 
 if guess.lower().strip() == answer:
